@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background: url(./drum.jpg) no-repeat;
+  background-size: 100% 125%;
+}
+
+h1 {
+  font-size: 5rem;
+  color: gold;
+  text-shadow: 5px 0 darkmagenta;
+
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  transform: scale(1.1);
+  border-color: #ffc600;
+  box-shadow: 0 0 2rem #ffc600;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 5px solid gray;
+  font-size: 5rem;
+  /* line-height: 2; */
+  font-weight: 500;
+  color: whitesmoke;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 130px;
+  text-align: center;
+  margin: 10px;
+  background-color: black;
+  opacity: 0.95;
+}
+
+@media(max-width:1000px){
+  .drum{
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    margin: 10px 10px 10px 323px;
+    display: block;
+  }
+}
